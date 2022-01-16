@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background: rgb(238, 238, 238);
+    font-family: Helvetica;
+    font-weight: 350;
+}
+
+.bar {
+    height: 110px;
+    width: 75%;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(94, 94, 94);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 4px;
+    margin-left: 50px;
+    font-size: 125%;
+}
+
+.logo {
+    float: left;
+    padding: 5px 0;
+}
+
+header {
+    background: rgb(146, 146, 146)
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
