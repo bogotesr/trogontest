@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Bai Jam;
+    src: url(./fonts/BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bai Jam-bold;
+    src: url(./fonts/BaiJamjuree-Bold.ttf);
+}
+
 body{
     margin: 0;
     background: rgb(238, 238, 238);
@@ -31,7 +41,6 @@ nav a {
 nav ul {
     margin: 0;
     padding: 0;
-
 }
 
 nav li {
@@ -39,6 +48,20 @@ nav li {
     padding-top: 4px;
     margin-left: 50px;
     font-size: 125%;
+}
+
+nav a:hover{
+    background: rgb(238, 238, 238);
+}
+
+nav a:active {
+    background: rgb(238, 238, 238);
+}
+
+.SSSvid {
+    display: block;
+    padding-left: 7px;
+    padding-top: 85px;
 }
 
 .logo {
@@ -54,4 +77,96 @@ header::after {
     content: '';
     display: table;
     clear: both;
+}
+
+.house {
+    float: right;
+    width: 850px;
+}
+
+.book {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+    background: rgb(94, 94, 94);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.book:hover {
+    background: rgba(185,158,22,255);
+}
+
+.SSS {
+    padding-left: 215px;
+}
+
+.stunning {
+    font-family: "Bai Jam-bold";
+    font-size: 35px;
+    padding-top: 35px;
+}
+
+.booked {
+    font-family: "Bai Jam";
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.step1, .step2 {
+    width: 20%;
+}
+
+.step3 {
+    width: 24.5%;
+}
+
+.step1 {
+    padding-left: 20%;
+}
+
+.easy {
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    background: rgb(94, 94, 94);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.HowIt {
+    font-family: "Bai Jam-bold";
+    font-size: 35px;
+    text-align: center;
+}
+
+.products {
+    background-image: url(./images/house.jpg);
+    height: 570px;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.PTitle {
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Bai Jam-bold";
+    font-size: 35px;
+}
+
+.boldit {
+    padding-left: 30%;
+    font-family: "Bai Jam-bold";
+    font-size: 20px;
+}
+
+.pointul {
+    padding-left: 35%;
+    font-family: "Bai Jam";
+    font-size: 20px;
 }
